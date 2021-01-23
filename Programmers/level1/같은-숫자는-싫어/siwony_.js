@@ -5,7 +5,7 @@ function solution(arr)
     for(let i = 0; i < arr.length; i++){
         if(temp !== arr[i]) {
             temp = arr[i]
-            answer[answer.length] = temp;
+            answer.push(temp);
         }
     }   
     return answer
